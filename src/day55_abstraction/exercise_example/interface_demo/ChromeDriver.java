@@ -1,9 +1,13 @@
 package day55_abstraction.exercise_example.interface_demo;
 
 public class ChromeDriver implements WebDriver {
+    public ChromeDriver() {
+        System.out.println("Launching Chrome Browser");
+    }
+
     @Override
     public void get(String url) {
-        System.out.println("ChromeDriver - navigating to " + url) ;
+        System.out.println("ChromeDriver - navigating to " + url);
     }
 
     @Override
@@ -13,11 +17,11 @@ public class ChromeDriver implements WebDriver {
 
     @Override
     public void quit() {
-        System.out.println("ChromeDriver - quitting browser");
+        System.out.println("ChromeDriver - quitting the driver");
     }
 
     @Override
     public String getTitle() {
-        return "Sunday FunDay";
+        return "Wooden spoon";
     }
 }
