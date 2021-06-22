@@ -3,7 +3,7 @@ package day55_abstraction.exercise_example.interface_demo;
 public class FirefoxDriver implements WebDriver{
     @Override
     public void get(String url) {
-        System.out.println("FirefoxDriver opens up " + url);
+        System.out.println("FirefoxDriver - navigating to " + url);
     }
 
     @Override
@@ -13,11 +13,11 @@ public class FirefoxDriver implements WebDriver{
 
     @Override
     public void quit() {
-        System.out.println("FirefoxDriver - quitting browser");
+        System.out.println("FirefoxDriver - quitting the driver");
     }
 
     @Override
     public String getTitle() {
-        return "Wooden spoon";
+        return "Wooden spoon title";
     }
 }
