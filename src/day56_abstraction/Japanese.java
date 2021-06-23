@@ -3,11 +3,11 @@ package day56_abstraction;
 public class Japanese implements Greeting{
     @Override
     public void hi() {
-        System.out.println("");
+        System.out.println("こんにちは");
     }
 
     @Override
     public void bye() {
-        System.out.println("");
+        System.out.println("さようなら");
     }
 }
