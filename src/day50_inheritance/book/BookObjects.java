@@ -23,5 +23,12 @@ public class BookObjects {
         audioBook.listen();
 
         Ebook eBook = new Ebook();
+        eBook.title = "Java data structures";
+        eBook.author = "Savitch";
+        eBook.type = "programming";
+        eBook.price = 85.0;
+        eBook.size = 2;
+        eBook.pages = 1000;
+        eBook.readBook();
     }
 }
