@@ -1,4 +1,4 @@
-package day56_abstraction;
+package day56_abstraction.transportation;
 
 public abstract class Transportation {
     public abstract void transportPeople();
@@ -9,4 +9,6 @@ public abstract class Transportation {
     public void stop(){
         System.out.println("Turn off the engine");
     }
+
+
 }

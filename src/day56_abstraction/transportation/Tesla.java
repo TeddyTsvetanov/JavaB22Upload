@@ -1,6 +1,8 @@
-package day56_abstraction;
+package day56_abstraction.transportation;
 
-public class Tesla extends Transportation implements SelfDrivable, Greeting{
+import day56_abstraction.greeting.Greeting; //Greeting is in a different package
+
+public class Tesla extends Transportation implements SelfDrivable, Greeting {
     @Override
     public void transportPeople() {
         System.out.println("Tesla is transporting people on the roads");
