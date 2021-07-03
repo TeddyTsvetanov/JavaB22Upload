@@ -1,4 +1,4 @@
-package day58_polymorphism;
+package day58_polymorphism.superMan;
 
 public class SuperManTest {
     public static void main(String[] args) {
@@ -21,6 +21,4 @@ public class SuperManTest {
         spMan3.raiseKid();
 
     }
-
-
 }
