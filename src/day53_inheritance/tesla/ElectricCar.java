@@ -62,7 +62,7 @@ public class ElectricCar {
     public void setMake(String make) {
         if(make.isEmpty()){
             System.out.println("Error - make cannot be blank");
-        } else{
+        }else{
             this.make = make;
         }
     }

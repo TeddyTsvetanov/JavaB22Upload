@@ -28,7 +28,7 @@ public class Plane extends Transportation implements SelfDrivable, Greeting {
         System.out.println("Thank you for flying on American airlines");
     }
 
-    public void land() {
+    public void land() {  //this is not an overridden method because it belongs to plane only (land)
         System.out.println("Plane is landing - buckle up");
     }
 }
