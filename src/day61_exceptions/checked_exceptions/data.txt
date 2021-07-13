@@ -1,0 +1,8 @@
+java
+selenium
+cucumber
+API
+sql
+maven
+git - github
+testNg
